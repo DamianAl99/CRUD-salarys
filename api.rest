@@ -1,0 +1,22 @@
+###
+get http://localhost:5000/api/salarys
+
+###
+post http://localhost:5000/api/salarys
+Content-Type: application/json
+
+{
+    "name": "jose",
+    "salary": "5000"
+}
+
+###
+put http://localhost:5000/api/salarys/5fb668f4bb893a1b10b8481f
+Content-Type: application/json
+
+{
+    "name": "david come polla"
+}
+
+###
+delete http://localhost:5000/api/salarys/5fb6f995b5659f2b24eaff29
